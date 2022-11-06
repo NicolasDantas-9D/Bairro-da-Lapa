@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Anton";
+    src: url(../fontes/Anton/Anton-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Open";
+  src: url(../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fontes/Lato/Lato-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+    
+.fundo {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: -5.5%;
+  background-color: #3f3fbe;
+  }
+    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  }
+
+#lapa {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+#lapa a img {
+    width: 50px;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+
+ul {
+    list-style: none;
+  }
+    
+ul li {
+      display: inline-block;
+      font-family: "Anton", Arial, Helvetica, sans-serif;
+  }
+    
+ul li a {
+    padding: 10px 3vw;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.6s;
+  }
+
+ul li a:hover {
+  background-color: rgb(118, 87, 255);
+  box-shadow: 1px 1px 50px black;
+}
+
+ul li a:active {
+  background-color: rgb(22, 0, 117);
+  box-shadow: 1px 1px 50px black;
+}
+
+main h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Anton", Arial, Helvetica, sans-serif;
+    color: rgb(22, 0, 117);
+    box-shadow: 1px 1px 10px black;
+}
+
+main #tabela {
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 3%;
+    box-shadow: 1px 1px 5px black;
+    display: inline-block;
+}
+
+
+main table:hover {
+    box-shadow: 1px 1px 5px blue;
+}
+
+main h3 {
+    font-family: "Open", Arial, Helvetica, sans-serif;
+    color:rgb(118, 87, 255);
+    font-size: 2.5vw;
+    text-align: center;
+}
+main h4 {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+    font-family: "Open", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.8vw;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main img {
+    width: 45px;
+}
+
+  main #textos_esquerda p {
+    font-size: 2vw;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    float: left;
+    width: 50vw;
+    text-align: center;
+  }
+.fundo_footer {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgb(204, 193, 255);
+    padding-left: 45vw;
+  }
+  
+  #icons img {
+    width: 70px;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+ 
+  #icons img:hover {
+    box-shadow: 1px 1px 10px black;
+  }
+
+  #lapa a img:hover {
+    box-shadow: 1px 1px 50px black;
+  }
+  
+#lapa a img:active {
+    background-color: rgb(118, 87, 255);
+    box-shadow: 1px 1px 50px black;
+}

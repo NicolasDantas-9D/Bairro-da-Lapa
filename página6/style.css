@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Anton";
+    src: url(../fontes/Anton/Anton-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Open";
+  src: url(../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fontes/Lato/Lato-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+    
+.fundo {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: -5.5%;
+  background-color: #3f3fbe;
+  }
+    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  }
+
+#lapa {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+#lapa a img {
+    width: 50px;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+
+ul {
+    list-style: none;
+  }
+    
+ul li {
+      display: inline-block;
+      font-family: "Anton", Arial, Helvetica, sans-serif;
+  }
+    
+ul li a {
+    padding: 10px 3vw;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.6s;
+  }
+
+ul li a:hover {
+  background-color: rgb(118, 87, 255);
+  box-shadow: 1px 1px 50px black;
+}
+
+ul li a:active {
+  background-color: rgb(22, 0, 117);
+  box-shadow: 1px 1px 50px black;
+}
+
+main iframe {
+  margin-left: 25vw;
+}
+footer .fundo_footer {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgb(204, 193, 255);
+    padding-left: 45vw;
+  }
+  
+footer #icons img {
+    width: 70px;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+  
+footer #icons img:hover {
+    box-shadow: 1px 1px 10px black;
+  }
+
+#lapa a img:hover {
+    box-shadow: 1px 1px 50px black;
+  }
+  
+#lapa a img:active {
+    background-color: rgb(118, 87, 255);
+    box-shadow: 1px 1px 50px black;
+}
